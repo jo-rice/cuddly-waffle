@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+}
+
+.right-div{
+    background-color: whitesmoke;
+    height: 60vh;
+    padding: 3%;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.text-1{
+    font-size: 70px;
+}
+
+.text-2{
+    font-size: 20px;
+    color:dimgray;
+}
+
+img{
+    height: 60vh;
+    width: 40vw;
+}
+
+button{
+    width: 7vw;
+    height: 5vh;
+    padding: 1%;
+    border: none;
+    border-radius: 20px;
+    background-color: azure;
+    color: grey;
+}
